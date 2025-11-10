@@ -8,7 +8,7 @@ env:
 phases: 
     install:
         runtime-versions:
-            nodejs: 20 # 12
+            nodejs: 12
         commands:
             - echo "Running on $MY_AWS_REGION"
             - echo "Print Environment Variables"
@@ -23,8 +23,8 @@ phases:
             - echo "we are currently on build phase"
             - echo "Build Activity is completed"
             - echo "Run Basic check whether Website is ready for use"
-            - grep -Fq "AWS Certified DevOpssss Engineer" index.html
-            - echo "Test was successful"
+            - grep -Fq "AWS Certified DevOps Engineer" index.html
+            - echo "Test was successful name = $name"
             - echo "proceed with next steps"
     post_build:
         commands:
