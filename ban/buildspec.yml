@@ -23,21 +23,10 @@ phases:
             - echo "we are currently on build phase"
             - echo "Build Activity is completed"
             - echo "Run Basic check whether Website is ready for use"
-            - grep -Fq "AWS Certified DevOps Engineer" index.html
+            - grep -Fq "AWS Certified DevOpssss Engineer" index.html
             - echo "Test was successful"
             - echo "proceed with next steps"
     post_build:
         commands:
             - echo "We are currently on post_build phase"
-            - echo "post_build phase activity 546454546464554645is completed. Moving to Artifacts Phase"
-
-    # post_build22:
-    #     commands:
-    #         - echo "We are currently on post_build phase"
-    #         - echo "post_build phase activity is completed. Moving to Artifacts Phase"
-
-
-    # post_build33:
-    #     commands:
-    #         - echo "We are currently on post_build phase"
-    #         - echo "post_build phase activity is completed. Moving to Artifacts Phase"
+            - echo "post_build phase activity is completed. Moving to Artifacts Phase"
