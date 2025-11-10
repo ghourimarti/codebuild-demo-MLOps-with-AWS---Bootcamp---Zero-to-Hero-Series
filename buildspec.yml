@@ -14,10 +14,10 @@ phases:
             - echo "Print Environment Variables"
             - echo "Start the installation process"
             - echo "Installation Process Completed"
-    # pre_build:
-    #     commands: 
-    #         - echo "This is the start of Pre-Build phase"
-    #         - echo "Pre-Build phase is now completed"
+    pre_build:
+        commands: 
+            - echo "This is the start of Pre-Build phase"
+            - echo "Pre-Build phase is now completed"
     build:
         commands:
             - echo "we are currently on build phase"
@@ -26,10 +26,10 @@ phases:
             - grep -Fq "AWS Certified DevOps Engineer" index.html
             - echo "Test was successful"
             - echo "proceed with next steps"
-    # post_build:
-    #     commands:
-    #         - echo "We are currently on post_build phase"
-    #         - echo "post_build phase activity is completed. Moving to Artifacts Phase"
+    post_build:
+        commands:
+            - echo "We are currently on post_build phase"
+            - echo "post_build phase activity 546454546464554645is completed. Moving to Artifacts Phase"
 
     # post_build22:
     #     commands:
