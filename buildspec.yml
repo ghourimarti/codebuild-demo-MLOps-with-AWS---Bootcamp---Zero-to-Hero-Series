@@ -41,5 +41,5 @@ artifacts:
         - appspec.yml
         - index.html
         - scripts/**
-    discard-paths: yes 
+    discard-paths: no
 
