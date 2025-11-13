@@ -38,5 +38,8 @@ phases:
 artifacts:
     files:
         - '**/*'
+        - appspec.yml
+        - index.html
+        - scripts/**
     discard-paths: yes 
 
